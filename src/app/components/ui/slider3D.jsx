@@ -50,7 +50,7 @@ const Slider3D = ({ users, onToggleBookmark, onOpenCard }) => {
                 slidesPerView={quantityCard}
                 navigation
                 pagination={{ clickable: true }}
-                mousewheel
+                // mousewheel
                 keyboard
                 effect={"coverflow"}
                 coverflowEffect={{
